@@ -9,6 +9,7 @@
     --highlight-color: #416a8e;
     --light-highlight-color: #7a9fc2;
 }
+/* global styles */
 
 body {
     font-family: var(--primary-font);
@@ -18,11 +19,16 @@ h1,
 h2,
 h3 {
     font-family: var(--secondary-font);
-    color: var(--primary-color)
+    color: var(--primary-color);
+    text-transform: uppercase;
 }
 
 .sub-heading-color {
     color: var(--highlight-color);
+}
+
+.section {
+    margin-top: 2rem;
 }
 
 /* Navbar styles */
@@ -32,6 +38,11 @@ h3 {
 
 #navbar .logo {
     width:30px;
+}
+
+/* Header styles */
+#header .lead {
+    font-family: var(--secondary-color);
 }
 
 /* Grid visualisation CSS for testing */
