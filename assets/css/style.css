@@ -74,14 +74,14 @@ h2 {
 
 /* Header styles */
 #header .lead {
-  font-family: var(--secondary-color);
+  font-family: var(--secondary-font);
 }
 
 /* Services */
 
 #services .card-footer {
   font-weight: bold;
-  color: var(--highlight-color);
+  color:var(--highlight-color);
   background-color: transparent;
 }
 
@@ -145,17 +145,7 @@ h2 {
 #contact .table-dark * {
   background-color: transparent;
 }
-/* Grid visualisation CSS for testing */
-/*
-.container,
-.row {
-    border: 2px solid black;
-}
 
-.col-12 {
-    border: 2px solid white;
-    background-color: lightgrey;
-} */
 
 /* Media queries */
 
